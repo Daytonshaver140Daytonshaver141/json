@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 
 ##
-## PROJECT
+## PROJECTS
 ## name and version
 ##
 project(nlohmann_json VERSION 3.9.1 LANGUAGES CXX)
@@ -16,7 +16,8 @@ if (CMAKE_CURRENT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR)
 endif()
 
 ##
-## INCLUDE
+## INCLUDE arch Linux j mo's
+
 ##
 ##
 include(ExternalProject)
